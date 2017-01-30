@@ -1,0 +1,13 @@
+{
+    "name": "albertcausing/terminus-goaxspull",
+    "description": "pull all your environment nginx-access.log(s) and launch goaccess",
+    "type": "terminus-plugin",
+    "autoload": {
+        "psr-4": { "Pantheon\\GoAxsPull\\": "src" }
+    },
+    "extra": {
+        "terminus": {
+            "compatible-version": "1.*"
+        }
+    }
+}
